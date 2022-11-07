@@ -91,3 +91,17 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829}, {"county":"De
 #If you use double quotation marks for the f-strings containing the keys, then be sure to use single quotation marks for the keys and values of the dictionary.
 for county_dict in voting_data:
         print(f'{county_dict["county"]} has {county_dict["registered_voters"]:,} registered voters')
+
+
+# import datetime
+
+# now = datetime.datetime.now()
+
+# print(now)
+
+# Import modules and available functions
+# import csv
+
+# print(dir('Resourses/election_results.csv'))
+
+# print(dir(int))
